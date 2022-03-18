@@ -25,7 +25,7 @@ $(call inherit-product, vendor/evolution/config/common_telephony.mk)
 $(call inherit-product, vendor/evolution/config/themes.mk)
 
 # Inherit from GMS product config
-$(call inherit-product, vendor/gms/gms_full.mk)
+# $(call inherit-product, vendor/gms/gms_full.mk)
 
 PRODUCT_BRAND ?= EvolutionX
 
